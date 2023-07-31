@@ -21,7 +21,7 @@ The Virtual Private Mempool Server is a custom implementation of Bitcoin tx rout
 
 - **Lower Fees**: Prevents Bitcoin users from bidding each other up for blockspace, resulting in lower transaction fees.
 - **Privacy**: Provides a virtual private mempool for enhanced transaction privacy.
-- **Security**: Ensures a controlled environment for tx propagation, mitigates risk of MEV, frontrunning, and other attacks.
+- **Security**: Ensures a controlled environment for tx propagation, mitigates risk of MEV frontrunning and other attacks.
 - **Customizable**: Easy-to-configure settings for tailored use-cases. Customize your private mempool with your own rules.  
 - **Compatibility**: Designed to be used with Sparrow Wallet and other PSBT compatible clients. 
 - **Real-time Updates**: Keeps your private mempool synchronized with the Bitcoin network.
