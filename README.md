@@ -47,7 +47,7 @@ Refer to whitelist inscription instructions, Guide Coming Soon!
 
 ## Contributing
 
-Contributions to the Virtual Private Mempool Server are welcome and encouraged! If you have any bug fixes, improvements, or new features to add, please follow the [contribution guidelines](CONTRIBUTING.md) in this repository.
+Contributions to the Virtual Private Mempool Server are welcome and encouraged! If you have any bug fixes, improvements, or new features to add, please follow the [contribution guidelines](CONTRIBUTING.md) in this repository when we eventually add it.
 
 ## License
 
