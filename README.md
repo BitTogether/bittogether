@@ -13,7 +13,7 @@
 
 ## Introduction
 
-The Virtual Private Mempool Server is a custom implementation of Bitcoin transaction routing and timing forked from Sparrow Wallet's Electrum Server by BitTogether, designed to provide a private and secure mempool service for Bitcoin transactions and Bitcoin Ordinals. This software serves as a backend component, optimizing the transaction relay process and providing a dedicated mempool for a single client or a group of trusted clients like an Ordinals project or collection.
+The Virtual Private Mempool Server is a custom implementation of Bitcoin tx routing and timing forked from Sparrow Wallet's Electrum Server by BitTogether, designed to provide a private and secure mempool service for Bitcoin transactions and Bitcoin Ordinals. This software serves as a backend component, optimizing the transaction relay process and providing a dedicated mempool for a single client or a group of trusted clients like an Ordinals project or collection.
 
 > **Note:** If you are looking for the Sparrow Wallet repository, visit the original repository [here](https://github.com/sparrowwallet/sparrow).
 
