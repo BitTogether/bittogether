@@ -1,3 +1,68 @@
+# Virtual Private Mempool Server by Bittogether (Forked from Sparrow Wallet)
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Configuration & Usage](#configuration--usage)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Introduction
+
+The Virtual Private Mempool Server is a custom implementation of Bitcoin transaction routing and timing forked from Sparrow Wallet's Electrum Server by BitTogether, designed to provide a private and secure mempool service for Bitcoin transactions and Bitcoin Ordinals. This software serves as a backend component, optimizing the transaction relay process and providing a dedicated mempool for a single client or a group of trusted clients like an Ordinals project or collection.
+
+> **Note:** If you are looking for the Sparrow Wallet repository, visit the original repository [here](https://github.com/sparrowwallet/sparrow).
+
+## Features
+
+- **Lower Fees**: Prevents Bitcoin users from bidding each other up for blockspace, resulting in lower transaction fees.
+- **Privacy**: Provides a virtual private mempool for enhanced transaction privacy.
+- **Security**: Ensures a controlled environment for tx propagation, mitigates risk of MEV, frontrunning, and other attacks.
+- **Customizable**: Easy-to-configure settings for tailored use-cases. Customize your private mempool with your own rules.  
+- **Compatibility**: Designed to be used with Sparrow Wallet and other PSBT compatible clients. 
+- **Real-time Updates**: Keeps your private mempool synchronized with the Bitcoin network.
+- **Unstuck Transactions**: Prevents transactions from getting stuck in the public memPool because of a low fee rate tx.
+
+## Installation
+
+**Prerequisites:**
+
+- [Bitcoin Core](https://github.com/bitcoin/bitcoin) (v0.21.1 or higher) - Ensure you have Bitcoin Core installed and fully synced.
+
+**Whitelist**
+
+Obtain whitelist from https://www.x.com/btctogether for Early Access!! 
+
+## Configuration & Usage
+
+To utilize the Virtual Private Mempool Server, point your inscription service or Bitcoin tx relay to your server's URL or the Bittogether Private memPool URL. The client will then interact with the server for transaction broadcasting, waiting until the anticipated fee rate is below the fee rate set on the transaction.  For PSBTs, fees will be adjusted down to minimum effective fee rate anticipated, based on the fee rates of visible transactions and meta-transactions waiting in the public and private memPools.
+
+## API Documentation
+
+Refer to whitelist inscription instructions, Guide Coming Soon!
+
+## Contributing
+
+Contributions to the Virtual Private Mempool Server are welcome and encouraged! If you have any bug fixes, improvements, or new features to add, please follow the [contribution guidelines](CONTRIBUTING.md) in this repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+Special thanks to the developers of Sparrow Wallet for their excellent work, which served as the foundation for this fork. 
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+Original Sparrow Wallet README.md forked July 30, 2023 below:
+
 # Sparrow Bitcoin Wallet
 
 Sparrow is a modern desktop Bitcoin wallet application supporting most hardware wallets and built on common standards such as PSBT, with an emphasis on transparency and usability.
