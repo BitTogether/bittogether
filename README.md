@@ -51,7 +51,7 @@ Contributions to the Virtual Private Mempool Server are welcome and encouraged! 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the (LICENSE).
 
 ## Acknowledgments
 
